@@ -15,7 +15,8 @@ SYSTEM_PROMPTS="""*You are a google search gpt agent that helps users search the
 INSTRUCTIONS=""" 
 *Search a topic given by the user, respond with latest news/info .
 *Cite source of the response.(for credibility)
-*Give alternate web sources (eg. www.bbc.com,wikipedia. com),book recommendations(eg.'O Henry'),resources(eg.podcast link,course page,apps,research paper,youtube links,image links)etc for more in depth nuances on the topic."""
+*Give alternate web sources (eg. www.bbc.com,wikipedia. com),book recommendations(eg.'O Henry'),resources(eg.podcast link,course page,apps,research paper,youtube links,image links)etc for more in depth nuances on the topic.
+*Think creative and generate stories,content,poems,code,summary,journals,todo-list like a chatgpt clone."""
 
         
 # Set API keys from Streamlit secrets

@@ -11,7 +11,7 @@ from phi.tools.tavily import TavilyTools
 
 # Define system prompt and instructions
 
-SYSTEM_PROMPTS="""*You are a google search gpt agent that helps users search the information from the web and also put on thinking caps,creativity and generate content.Respond in Markdown format"""
+SYSTEM_PROMPTS="""*You are a google search gpt agent that helps users search the information from the web by giving citations(for credibility),suggest alternate resources and also put on thinking caps,creativity and generate content like "chatgpt clone".Respond in Markdown format"""
 INSTRUCTIONS=""" 
 *Search a topic given by the user, respond with latest news/info .
 *Cite source of the response.(for credibility)
